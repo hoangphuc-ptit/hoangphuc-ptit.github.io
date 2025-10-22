@@ -339,6 +339,7 @@ h2 {
 
 #main li {
   margin: 0 0 0.05in 0;
+  word-break: auto-phrase;
 }
 
 /****** customize list symbol style ******/
@@ -363,6 +364,14 @@ h2 {
   margin-left: 0 !important;
 }
 
+.project-desc {
+  margin: 0px !important;
+  margin-left: 4px !important;
+}
+
+.project-desc li::before {
+  content: "- "!important;
+}
 
 
 /* sidebar */
