@@ -266,7 +266,7 @@ h2 {
 }
 
 .main-block:not(.concise) .details div {
-  margin: 0.18in 0 0.1in 0;
+  margin: 0in 0 0.1in 0;
 }
 
 .main-block:not(.concise) .blocks:last-child .details div {
@@ -290,7 +290,7 @@ h2 {
   display: inline-block;
   width: 100%;
   font-style: italic;
-  margin: 0.04in 0 0.02in 0;
+  margin: 0.08in 0 0.02in 0;
 }
 
 .details .project {
@@ -334,7 +334,7 @@ h2 {
 
 #main ul {
   padding-left: 0.07in;
-  margin: 0.3in 0 0.1in 0;
+  margin: 0.1in 0 0.1in 0;
 }
 
 #main li {
