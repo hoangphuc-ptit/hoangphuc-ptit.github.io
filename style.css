@@ -365,6 +365,41 @@ h2 {
 
 
 
+/***** system scale profile lines *****/
+#main li.scale {
+  font-size: small;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 2pt;
+}
+#main li.scale::before {
+  content: '';
+}
+
+/***** other certs section — subdued titles *****/
+
+.other-certs .details h3 {
+  font-size: small;
+  font-weight: 400;
+  color: #444;
+}
+
+/***** sections without the timeline decorator *****/
+
+#main .no-timeline h2::after {
+  display: none;
+}
+
+#main .no-timeline .decorator {
+  border-left: none;
+}
+
+#main .no-timeline .decorator::before,
+#main .no-timeline .decorator::after {
+  display: none;
+}
+
+
 /* sidebar */
 
 #sidebar h1 {
