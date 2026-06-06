@@ -254,6 +254,7 @@ h2 {
 
 .details .description {
   font-size: small;
+  hyphens: none;
 }
 
 .details header {
